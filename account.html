@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Details</title>
+    <link rel="stylesheet"href="style.css">
+    <link rel="icon"href="https://companieslogo.com/img/orig/KARURVYSYA.NS-2afed839.png?t=1720244492">
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+    <script src="script.js"></script>
+
+<!--account-->    
+      <body class="mainbody">
+         <a href="bank.html"><div class="accountbutton"><button> Back to Dashboard </button></div></a>
+            <div class="main"><br/>
+                <h1>ACCOUNT DETAILS</h1><br/>
+                <P><b>Account Holder Name: </b>Athikamsetty kiran</P><br/>
+                <p><b>Mobile Number: </b>9010741908</p><br/>
+                <p><b>Branch Name: </b>kitty bank pvt.ltd</p><br/>
+                <p><b>IFSC CODE: </b>KBIN00143</p><br/>
+                <p><b>Available Balance </b>_______</p><br/>
+                <button id="deb"><b><b><b> DEBIT </b></b></b></button></b>
+                <button id="cre"><b><b><b> CREDIT </b></b></b></button>
+            </div>  
+
+
+
+
+
+            
+    <!--script-->
+         
+         <script>
+             document.getElementById("deb").addEventListener("click", function debit(){
+                 location.href="debit.html"
+             })
+             document.getElementById("cre").addEventListener("click", function credit(){
+                 location.href="credit.html"
+     
+              })
+
+
+     
+document.addEventListener("DOMContentLoaded",()=>{
+    let popupPin=document.querySelector("#popup2");
+    let btnAcc =document.querySelector("#accbtn2");
+    let verifyPin =document.querySelector("#verify2");
+
+    btnAcc.addEventListener('click',()=>{
+        popupPin.style.display='block';
+        //alert("pin succesfull");
+        //window.location="account.html";
+    });
+
+    verifyPin.addEventListener('click',()=>{
+        let getInput=document.getElementById("numberInput2").value;
+        let password= '143';
+
+        if(password===getInput){
+            alert("pin succesfull");
+            window.location="debit.html";
+        }
+        else[
+            alert("IncorrectPin, please try again")
+        ]
+    });
+});
+
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded",()=>{
+    let popupPin=document.querySelector("#popup3");
+    let btnAcc =document.querySelector("#accbtn3");
+    let verifyPin =document.querySelector("#verify3");
+
+    btnAcc.addEventListener('click',()=>{
+        popupPin.style.display='block';
+        //alert("pin succesfull");
+        //window.location="account.html";
+    });
+
+    verifyPin.addEventListener('click',()=>{
+        let getInput=document.getElementById("numberInput3").value;
+        let password= '143';
+
+        if(password===getInput){
+            alert("pin succesfull");
+            window.location="credit.html";
+        }
+        else[
+            alert("IncorrectPin, please try again")
+        ]
+    });
+});
+
+
+         </script>
+
+         <script src="script.js"></script>
+
+     <!--script-->
+
+
+    
+
+
+<!--account-->          
+    
+</body>
+</html>

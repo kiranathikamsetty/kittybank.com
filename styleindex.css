@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://img.freepik.com/free-photo/flat-lay-beautiful-autumn-leaves-with-copy-space_23-2148769090.jpg?w=996&t=st=1723393379~exp=1723393979~hmac=c81dae1df8b806fa5923e14da5e618bfcae561c461f17121a5552f045d379523");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+
+
+}
+
+
+.login{
+    
+    background-color: #bd8856;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 320px;
+    width: 340px;
+    margin-top: 200px;
+    margin-left: 620px;
+    box-sizing: content-box;
+    text-align: center;
+    box-shadow: 2px;
+    color: rgb(244, 243, 247);
+    justify-content: center;
+    
+}
+
+.user{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.btn{
+    border-color: black;
+    background-color: blue;
+    color: #fff;
+    width: 100px;
+    
+}
+.btn:hover{
+    background-color: green;
+    border-color: black;
+}
+
+
+/*footer*/
+#footer {
+    width: 100%;
+    background-color:transparent;
+    margin-top: 5%;
+    
+}
+#footer h4{
+    color: white;
+    padding-top: 35px;
+}
+
+.copyright{
+    color: white;
+    margin-top: 20px;
+}
+.credit {
+    color: white;
+}
+/*footer*/

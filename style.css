@@ -1,0 +1,209 @@
+/*index*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard {
+    background-image: url(https://images.pexels.com/photos/7130541/pexels-photo-7130541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.support {
+    font-weight: bold;
+    color: #d68a27;
+    margin-top: 0%;
+}
+
+.banktitle {
+    color: #d68a27;
+    margin-left:36%;
+    margin-top:55px;
+    font-size: 50px;
+    font-family: ✩░▒▓▆▅▃▂▁𝐓𝐲𝐩𝐞 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐭𝐨 𝐬𝐭𝐚𝐫𝐭▁▂▃▅▆▓▒░✩;
+}
+
+.mainpage {
+    gap: 2%;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+.card-body{
+    color: black;
+}
+
+/*index*/
+
+
+
+/*account*/
+.mainbody{
+      position: relative;
+      display: inline;
+      background-image: url(https://images.pexels.com/photos/7130541/pexels-photo-7130541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+      background-repeat: no-repeat;
+      background-size:cover;
+}
+
+.main{
+    border: 2px solid black; 
+    width: 400px;
+    text-align: center; 
+    position: absolute;
+    height: 310px;    
+    justify-content: center;
+    background-color: rgb(207, 193, 152);
+    align-items: center;
+    margin-top: 130px;
+    margin-left: 550px;   
+    border-radius: 5%; 
+    color:rgb(0, 0, 0);
+}
+
+.accountbutton{
+    margin-top: 5%;
+    margin-left: 8%;
+    color: aqua;
+    font-weight: bold;
+    border-color: black;
+    background-color: blue;
+    color: #6049c7;
+    width: 100px; 
+}
+
+
+
+
+/*account*/
+
+
+
+
+/*debit*/
+.main1{
+    position: relative;
+    display: inline;
+    background-image: url(https://images.pexels.com/photos/7130541/pexels-photo-7130541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.d main{
+    border: 2px solid black; 
+    width: 400px;
+    text-align: center; 
+    height: 310px;    
+    justify-items: center;
+    background-color: rgb(71, 139, 216);
+    margin-top: 50px;
+    margin-left: 480px;   
+    border-radius: 16px; 
+    color: #b1b6c3;
+
+}
+
+.d main input{
+    padding-top:20px ;
+}
+
+.debitbutton{
+    margin-top: 5%;
+    margin-left: 8%;
+    border-color: black;
+    background-color: blue;
+    color: #fff;
+    width: 100px;
+}
+/*debit*/
+
+
+
+/*credit*/
+.main1{
+    position: relative;
+    display: inline;
+    background-image: url(https://images.pexels.com/photos/7130541/pexels-photo-7130541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.d main{
+    border: 2px solid black; 
+    width: 400px;
+    text-align: center; 
+    height: 310px;    
+    justify-items: center;
+    background-color: rgb(71, 139, 216);
+    margin-top: 50px;
+    margin-left: 480px;   
+    border-radius: 16px; 
+    color: #b1b6c3;
+
+}
+
+.d main input{
+    padding-top:20px ;
+}
+
+.debitbutton{
+    margin-top: 5%;
+    margin-left: 8%;
+    border-color: black;
+    background-color: blue;
+    color: #fff;
+    width: 100px;
+}
+
+
+/*credit*/
+
+
+
+
+/*footer*/
+#footer {
+    width: 100%;
+    background-color: black;
+    margin-top: 7%;
+    
+}
+#footer h4{
+    color: white;
+    padding-top: 35px;
+}
+
+.copyright{
+    color: white;
+    margin-top: 20px;
+}
+.credit {
+    color: white;
+}
+/*footer*/
+
+
+/*scriptpopup*/
+.popup {
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    border: 2px solid blue;
+    background-color: white;
+    border-radius: 5%;
+    z-index: 999;
+    padding: 20px;
+    text-align: center;
+}
+.debitAmountReceived{
+    padding-top: 0;
+}
+
+/*scriptpopup*/
+
+
+
+
+

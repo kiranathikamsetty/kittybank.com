@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kittybank Login.in</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet"href="styleindex.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon"href="https://companieslogo.com/img/orig/KARURVYSYA.NS-2afed839.png?t=1720244492">
+</head>
+
+<body>
+ 
+    <div class="login">
+        
+        <form onsubmit="result(event)">
+         <h1>Login Page</h1><br/>
+
+          <div class=" input">
+            <input type="text" placeholder="Username (143)" id="user">
+            <i class="fa-solid fa-id-badge"></i>
+           </div>
+
+           <div class="input"> 
+          <input type="text" placeholder="Password (143)" id="pass">
+          <i class="fa-solid fa-lock"></i>
+           </div>
+
+           <div class="Remember "><br/>
+            <lable><input type="checkbox">Remember Me</lable>
+            <a href="#">Forget password?</a>
+          </div><br/>
+
+          <button onclick ="result()" class="btn">Login</button>
+          <div class="Register"><br/>
+            <p>Don't have an account?<a href="#">Register?</a> </p>
+          </div>
+
+        </form>
+    </div>
+
+<!--footer-->
+<footer id="footer">
+  <h4 class="text-center">Kitty Bank Pvt.Ltd</h4>
+      <div class="copyright text-center"><b>
+         &copy; </b><b>   copyright  </b> <strong><span><b>  Bank transaction  </b> </span></strong> <b>   ALL Rights Reserved.Under RBI Gudielines... </b>
+      </div>
+   <div class="credit text-center">
+       <b>  Designed by </b> <a href="#">   @Kiran athikamsetty </a>
+   </div>
+</footer>
+<!--footer-->      
+
+
+<script>
+
+        function result(event){
+                event.preventDefault(); // Prevent form submission
+                let username = document.getElementById('user').value;
+                //  alert(username);
+                let password = document.getElementById('pass').value;
+                // alert(password);
+                if( username==143 && password==143){
+                alert('Login successfully');
+                window.location.href = "bank.html"; // Redirect to the dashboard  
+  }
+                  else if( username==143 && password==143){
+                  alert('Please enter a valid details');
+  }
+                  else if( username!="" &&  password!=""){
+                  alert('Enter a correct use name and password');
+  }
+                 else {
+                  alert( 'Enter a valid details' )
+  }
+  
+        }
+
+</script>    
+    
+</body>
+</html>
